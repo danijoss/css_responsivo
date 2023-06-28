@@ -15,11 +15,13 @@ body{
     margin: 0 auto;
 }
 
+
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 header a {
     text-decoration: none;
@@ -122,10 +124,11 @@ section h2 {
 @media screen and (max-width: 767px) {
     
 
-    header .container {
-        display: flex;
-        justify-content: space-between;
+
+    header ul {
+        padding: 0;
     }
+
 
     #about .container {
         display: block;
@@ -136,9 +139,7 @@ section h2 {
     }
     
     
-    header div.container {
-        flex-direction: column;
-    }
+
     .products {
         display: block;
     }
